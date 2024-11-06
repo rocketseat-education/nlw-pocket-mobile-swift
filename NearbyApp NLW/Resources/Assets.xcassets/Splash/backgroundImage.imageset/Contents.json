@@ -3,6 +3,18 @@
     {
       "filename" : "Background.png",
       "idiom" : "universal"
+    },
+    {
+      "filename" : "Background@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x",
+      "unassigned" : true
+    },
+    {
+      "filename" : "Background@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x",
+      "unassigned" : true
     }
   ],
   "info" : {

@@ -10,6 +10,7 @@
 		A9E7FD832CD93BFE001A762A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E7FD822CD93BFE001A762A /* AppDelegate.swift */; };
 		A9E7FD852CD93BFE001A762A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E7FD842CD93BFE001A762A /* SceneDelegate.swift */; };
 		A9E7FD8C2CD93C01001A762A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9E7FD8B2CD93C01001A762A /* Assets.xcassets */; };
+		C60E95E92CDCE5510093393B /* Typography.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60E95E82CDCE5510093393B /* Typography.swift */; };
 		C6ED52682CD9A03000C1289E /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6ED52672CD9A03000C1289E /* Colors.swift */; };
 /* End PBXBuildFile section */
 
@@ -19,10 +20,12 @@
 		A9E7FD842CD93BFE001A762A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A9E7FD8B2CD93C01001A762A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A9E7FD902CD93C01001A762A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C60E95E82CDCE5510093393B /* Typography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Typography.swift; sourceTree = "<group>"; };
 		C6ED52672CD9A03000C1289E /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		C60E95F22CE41F490093393B /* Models */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Models; sourceTree = "<group>"; };
 		C6ED52692CDAC00C00C1289E /* Coordinator */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Coordinator; sourceTree = "<group>"; };
 		C6ED526C2CDAC29E00C1289E /* Scenes */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Scenes; sourceTree = "<group>"; };
 		C6ED52732CDC153000C1289E /* Components */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Components; sourceTree = "<group>"; };
@@ -88,6 +91,7 @@
 		A9E7FD982CD93C7F001A762A /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				C60E95F22CE41F490093393B /* Models */,
 				C6ED527C2CDC1EE100C1289E /* Extensions */,
 				C6ED52732CDC153000C1289E /* Components */,
 				C6ED526C2CDAC29E00C1289E /* Scenes */,
@@ -100,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				C6ED52672CD9A03000C1289E /* Colors.swift */,
+				C60E95E82CDCE5510093393B /* Typography.swift */,
 			);
 			path = Constants;
 			sourceTree = "<group>";
@@ -120,6 +125,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
+				C60E95F22CE41F490093393B /* Models */,
 				C6ED52692CDAC00C00C1289E /* Coordinator */,
 				C6ED526C2CDAC29E00C1289E /* Scenes */,
 				C6ED52732CDC153000C1289E /* Components */,
@@ -181,6 +187,7 @@
 			files = (
 				A9E7FD832CD93BFE001A762A /* AppDelegate.swift in Sources */,
 				C6ED52682CD9A03000C1289E /* Colors.swift in Sources */,
+				C60E95E92CDCE5510093393B /* Typography.swift in Sources */,
 				A9E7FD852CD93BFE001A762A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
