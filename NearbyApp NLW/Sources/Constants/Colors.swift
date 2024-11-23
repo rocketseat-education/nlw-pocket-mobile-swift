@@ -10,6 +10,8 @@ import UIKit
 
 public struct Colors {
     // Green Shades
+    static let greenExtraLight = UIColor(red: 233/255, green: 243/255, blue: 239/255, alpha: 1)
+        // #E9F3EF
     static let greenLight = UIColor(red: 59/255, green: 155/255, blue: 98/255, alpha: 1)   // #3B9B62
     static let greenBase = UIColor(red: 37/255, green: 127/255, blue: 73/255, alpha: 1)    // #257F49
     static let greenDark = UIColor(red: 5/255, green: 41/255, blue: 20/255, alpha: 1)      // #052914

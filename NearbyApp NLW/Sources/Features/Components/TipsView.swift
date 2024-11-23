@@ -13,6 +13,7 @@ public class TipsView: UIView {
     private let iconImageView: UIImageView = {
         let image = UIImageView()
         image.contentMode = .scaleAspectFit
+        image.tintColor = Colors.redBase
         image.translatesAutoresizingMaskIntoConstraints = false
         return image
     }()
